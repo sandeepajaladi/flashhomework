@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+{% block body %}
+
+
+    <p><h4>Click on the link below to login and access the course material</h4><h2><a href="{{ url_for('login') }}">login</a></h2></b>
+
+
+     <h5>Introduction to Flask Flash messages</h5>
+   		 <p>I am Sandeepa Jaladi . This is my first Flask flash message . The purpose of this page is to learn to Flask  </p>
+			<p> Here is the introduction to Flask flash
+			<ol>
+				<li>Flask provides a really simple way to give feedback to a user with the flashing system.  </li>
+					<li>The flashing system basically makes it possible to record a message at the end of a request and access it next request and only next request.</li>
+						<li>This is usually combined with a layout template that does this.</li>
+							<li>flashing messages that are too large for session cookies causes message flashing to fail silently.</li>
+
+            </ol>
+{% endblock %}

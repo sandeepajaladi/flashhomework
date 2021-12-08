@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+{% block body %}
+  <h3>Login</h3>
+  {% if error %}
+    <p style="color:red;font-size:24px" class=error><strong>Error:</strong> {{ error }}
+  {% endif %}
+    <div style = "justify-content: center;border: 2px solid green;padding: 50px">
+  <form method=post>
+  <p>Enter your credentials below </p>
+
+    <dl>
+      <dt>Username:
+      <dd><input type=text name=username value="{{
+          request.form.username }}">
+      <dt>Password:
+      <dd><input type=password name=password>
+    </dl>
+    <p><input type=submit value=Login>
+
+  </form>
+    </div>
+{% endblock %}
