@@ -1,14 +1,14 @@
-flashhomework
+#Flask flash  homework
 
 Initial page 
-
-![image](https://user-images.githubusercontent.com/90530329/145141760-843786a0-0e4f-4c28-95a9-2663e706d1f6.png)
-
 On clicking the login link
 
 ![image](https://user-images.githubusercontent.com/90530329/145141779-597dc183-4ad9-429a-9263-7d08991be2c4.png)
 
 On entering the valid credentials 
+
+![image](https://user-images.githubusercontent.com/90530329/145142258-89439713-69bd-46ff-8906-50f3b862ac3d.png)
+
 
 ![image](https://user-images.githubusercontent.com/90530329/145141832-0b55c782-fa32-412d-9cd3-6da9446bd68b.png)
 
